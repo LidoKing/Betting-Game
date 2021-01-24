@@ -1,0 +1,16 @@
+{
+  "name": "gamble",
+  "version": "1.0.0",
+  "description": "Randomness with oracles (Chainlink)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "truffle init"
+  },
+  "author": "Lido King",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^5.1.63",
+    "web3": "^1.3.3"
+  }
+}
