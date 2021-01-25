@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "truffle init"
+    "init": "truffle init",
+    "testrpc": "ganache-cli",
+    "migrate": "truffle migrate",
+    "compile": "truffle compile"
   },
   "author": "Lido King",
   "license": "ISC",
   "dependencies": {
+    "ganache-cli": "^6.12.2",
     "truffle": "^5.1.63",
     "web3": "^1.3.3"
   }
